@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background: wheat;
+}
+
+.parent {
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    height: 8vh;
+    width: 100%;
+    border-bottom: 1px solid #807f7e;
+}
+
+.navleft,
+.navright {
+    margin: auto;
+    flex: 1;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.child {
+    display: flex;
+    height: 92vh;
+    align-items: center;
+    width: 100%;
+
+}
+
+.child h2 {
+    font-size: 60px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    padding-left: 10px;
+}
+
+.heading {
+    flex: 1.4;
+    display: flex;
+    align-items: center;
+    height: 92vh;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+
+}
+
+.heading img {
+    height: 300px;
+}
+
+.white {
+    background: wheat;
+    height: 92vh;
+    flex: 1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row1 {
+    display: flex;
+}
+
+.white input,
+.white textarea,
+.white button {
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    padding: 15px;
+    margin: 15px;
+    background: white;
+    border-radius: 5px;
+
+}
+
+
+.white select {
+    width: 100%;
+    font-size: 1em;
+    border: none;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+
+}
+
+::placeholder,
+select,
+button {
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a,
+li {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.pie-container {
+    width: 500px;
+    height: 500px;
+}
+
+.contain {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.diseases {
+    width: 100%;
+    font-size: 1em;
+    border: none;
+    margin: 15px;
+    border-radius: 5px;
+}

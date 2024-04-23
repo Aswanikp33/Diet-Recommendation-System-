@@ -1,0 +1,5 @@
+tensorflow==2.15.0
+flask_cors
+pandas==2.0.3
+joblib==1.4.0
+scikit-learn==1.2.2
